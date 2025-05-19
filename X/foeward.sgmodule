@@ -352,8 +352,8 @@ DOMAIN-KEYWORD, subo, DIRECT
 DOMAIN, play.subokk.com, DIRECT
 DOMAIN-SUFFIX, xlzyd.com, DIRECT
 #魔都主页
-DOMAIN, caiji.moduapi.cc, DIRECT
-DOMAIN, www.mdzypic.com, DIRECT
+#DOMAIN, caiji.moduapi.cc, DIRECT
+#DOMAIN, www.mdzypic.com, DIRECT
 #播放
 DOMAIN-KEYWORD, play.modujx, DIRECT
 #最大主页

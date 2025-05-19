@@ -355,7 +355,7 @@ DOMAIN-SUFFIX, xlzyd.com, DIRECT
 #DOMAIN, caiji.moduapi.cc, DIRECT
 #DOMAIN, www.mdzypic.com, DIRECT
 #播放
-DOMAIN-KEYWORD, play.modujx, DIRECT
+#DOMAIN-KEYWORD, play.modujx, DIRECT
 #最大主页
 DOMAIN, ok.zuidapic.com, DIRECT
 DOMAIN, zuidazy.me, DIRECT

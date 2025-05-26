@@ -1,6 +1,6 @@
 # NAME: Ai Rules
 # AUTHOR: https://t.me/ddgksf2021
-# UPDATED: 2025-04-17
+# UPDATED: 2025-05-27 # 更新日期以反映本次修改
 
 payload:
 # > Ai general rules
@@ -37,7 +37,9 @@ payload:
 
 # > Google AI (Gemini/Bard)
   - DOMAIN,ai.google.dev
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com # 新增
   - DOMAIN,makersuite.google.com
+  - DOMAIN-SUFFIX,bard.google.com # 新增
   - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,apis.google.com
   - DOMAIN-SUFFIX,clients6.google.com
@@ -45,10 +47,11 @@ payload:
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
   - DOMAIN-SUFFIX,generativeai.google
-  - DOMAIN-SUFFIX,colab.google.com
-  - DOMAIN-SUFFIX,colab.research.google.com
-  - DOMAIN-SUFFIX,developerprofiles.google.com
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com # 新增
   - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-KEYWORD,colab # 替换了更具体的colab.google.com和colab.research.google.com
+  - DOMAIN-KEYWORD,developerprofiles # 替换了更具体的developerprofiles.google.com
+  - DOMAIN-KEYWORD,generativelanguage # 新增
 
 # > JetBrains AI
   - DOMAIN-SUFFIX,grazie.ai
